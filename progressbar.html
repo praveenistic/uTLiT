@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .progressbar{
+           background-color: red; 
+           height: 5px;
+           animation: load 2s ease-in-out 1;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            width: auto;
+            height: 60px;
+            background-color: darkblue;
+        }
+        main{
+            background-color: rgb(13, 168, 117);
+            height: 899px;
+
+        }
+        @keyframes load {
+            0% { 
+                width: 0;
+            }
+            50% {
+                width: 60vw;
+            }
+            100% {
+                width: 100vw;
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="progressbar"></div>
+    <header></header>
+    <main>
+
+    </main>
+</body>
+</html>
